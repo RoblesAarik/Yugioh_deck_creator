@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import CardList from "./components/CardList";
+import RandomCards from "./components/RandomCards";
 //import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 class RenderRoutes extends React.Component {
@@ -21,7 +22,7 @@ class App extends React.Component {
         <h1>Welcome Create your deck</h1>
         <h2> Popular Cards </h2>
         {/* Populate featured cards here */}
-        <CardList></CardList>
+        <RandomCards></RandomCards>
       </div>
     );
   }
