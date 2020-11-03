@@ -17,6 +17,8 @@ class App extends React.Component {
     return (
       <div>
         <h1>Welcome Create your deck</h1>
+        <h2> Popular Cards </h2>
+        {/* Populate featured cards here */}
       </div>
     );
   }
